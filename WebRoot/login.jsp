@@ -71,19 +71,19 @@
                         <fieldset>
                           <label class="block clearfix">
                             <span class="block input-icon input-icon-right">
-                              <input type="text" class="form-control" placeholder="民盛用户名" />
+                              <input type="text" class="form-control" placeholder="民盛用户名" id="login_user" />
                               <i class="icon-user"></i>
                             </span>
                           </label>
 
                           <label class="block clearfix">
                             <span class="block input-icon input-icon-right">
-                              <input type="password" class="form-control" placeholder="密码" />
+                              <input type="password" class="form-control" placeholder="密码" id="login_password"/>
                               <i class="icon-lock"></i>
                             </span>
                           </label>
 
-                          <div class="space"></div>
+                          <h5 class="text-danger" id="login_tip">&nbsp;</h5>
 
                           <div class="clearfix">
                             <label class="inline">
@@ -291,6 +291,8 @@
     </script>
 
     <!-- inline scripts related to this page -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootbox.min.js"></script>
 
     <script type="text/javascript">
       function show_box(id) {
