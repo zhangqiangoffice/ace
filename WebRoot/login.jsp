@@ -49,7 +49,7 @@
                 <h1>
                   <i class="icon-leaf green"></i>
                   <span class="red">民盛</span>
-                  <span class="white">集团业务管理系统</span>
+                  <span class="white">集团后勤管理系统</span>
                 </h1>
                 <h4 class="blue">&copy; 民盛保险代理有限公司</h4>
               </div>
@@ -102,7 +102,7 @@
                       </form>
 
                       <div class="social-or-login center">
-                        <span class="bigger-110">Or Login Using</span>
+                        <span class="bigger-110">用心服务每一位</span>
                       </div>
 
                       <div class="social-login center">
@@ -143,12 +143,12 @@
                     <div class="widget-main">
                       <h4 class="header red lighter bigger">
                         <i class="icon-key"></i>
-                        Retrieve Password
+                        重置密码
                       </h4>
 
                       <div class="space-6"></div>
                       <p>
-                        Enter your email and to receive instructions
+                        输入你的民盛用户名和联系电话
                       </p>
 
                       <form>
@@ -163,7 +163,7 @@
                           <div class="clearfix">
                             <button type="button" class="width-35 pull-right btn btn-sm btn-danger">
                               <i class="icon-lightbulb"></i>
-                              Send Me!
+                              申请重置!
                             </button>
                           </div>
                         </fieldset>
@@ -172,7 +172,7 @@
 
                     <div class="toolbar center">
                       <a href="#" onclick="show_box('login-box'); return false;" class="back-to-login-link">
-                        Back to login
+                        返回登录
                         <i class="icon-arrow-right"></i>
                       </a>
                     </div>
@@ -184,11 +184,11 @@
                     <div class="widget-main">
                       <h4 class="header green lighter bigger">
                         <i class="icon-group blue"></i>
-                        New User Registration
+                        新用户注册
                       </h4>
 
                       <div class="space-6"></div>
-                      <p> Enter your details to begin: </p>
+                      <p> 请如实填写以下信息: </p>
 
                       <form>
                         <fieldset>
@@ -223,8 +223,8 @@
                           <label class="block">
                             <input type="checkbox" class="ace" />
                             <span class="lbl">
-                              I accept the
-                              <a href="#">User Agreement</a>
+                              我同意
+                              <a href="agreement.html" target="_blank">《民盛集团用户协议》</a>
                             </span>
                           </label>
 
@@ -233,11 +233,11 @@
                           <div class="clearfix">
                             <button type="reset" class="width-30 pull-left btn btn-sm">
                               <i class="icon-refresh"></i>
-                              Reset
+                              清空
                             </button>
 
                             <button type="button" class="width-65 pull-right btn btn-sm btn-success">
-                              Register
+                              注册
                               <i class="icon-arrow-right icon-on-right"></i>
                             </button>
                           </div>
@@ -248,7 +248,7 @@
                     <div class="toolbar center">
                       <a href="#" onclick="show_box('login-box'); return false;" class="back-to-login-link">
                         <i class="icon-arrow-left"></i>
-                        Back to login
+                        返回登录
                       </a>
                     </div>
                   </div><!-- /widget-body -->
