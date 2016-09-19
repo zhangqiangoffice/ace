@@ -71,14 +71,14 @@
                         <fieldset>
                           <label class="block clearfix">
                             <span class="block input-icon input-icon-right">
-                              <input type="text" class="form-control" placeholder="Username" />
+                              <input type="text" class="form-control" placeholder="民盛用户名" />
                               <i class="icon-user"></i>
                             </span>
                           </label>
 
                           <label class="block clearfix">
                             <span class="block input-icon input-icon-right">
-                              <input type="password" class="form-control" placeholder="Password" />
+                              <input type="password" class="form-control" placeholder="密码" />
                               <i class="icon-lock"></i>
                             </span>
                           </label>
@@ -91,7 +91,7 @@
                               <span class="lbl"> 记住登录</span>
                             </label>
 
-                            <button type="button" class="width-35 pull-right btn btn-sm btn-primary">
+                            <button type="button" class="width-35 pull-right btn btn-sm btn-primary" id="login_btn">
                               <i class="icon-key"></i>
                               登录
                             </button>
@@ -155,15 +155,22 @@
                         <fieldset>
                           <label class="block clearfix">
                             <span class="block input-icon input-icon-right">
-                              <input type="email" class="form-control" placeholder="Email" />
-                              <i class="icon-envelope"></i>
+                              <input type="text" class="form-control" placeholder="民盛用户名" />
+                              <i class="icon-user"></i>
+                            </span>
+                          </label>
+
+                          <label class="block clearfix">
+                            <span class="block input-icon input-icon-right">
+                              <input type="email" class="form-control" placeholder="联系电话" />
+                              <i class="icon-phone"></i>
                             </span>
                           </label>
 
                           <div class="clearfix">
                             <button type="button" class="width-35 pull-right btn btn-sm btn-danger">
                               <i class="icon-lightbulb"></i>
-                              申请重置!
+                              申请重置
                             </button>
                           </div>
                         </fieldset>
@@ -188,34 +195,41 @@
                       </h4>
 
                       <div class="space-6"></div>
-                      <p> 请如实填写以下信息: </p>
+                      <p> 请如实填写以下信息：</p>
 
                       <form>
                         <fieldset>
                           <label class="block clearfix">
                             <span class="block input-icon input-icon-right">
-                              <input type="email" class="form-control" placeholder="Email" />
-                              <i class="icon-envelope"></i>
-                            </span>
-                          </label>
-
-                          <label class="block clearfix">
-                            <span class="block input-icon input-icon-right">
-                              <input type="text" class="form-control" placeholder="Username" />
+                              <input type="text" class="form-control" placeholder="姓名" />
                               <i class="icon-user"></i>
                             </span>
                           </label>
 
                           <label class="block clearfix">
                             <span class="block input-icon input-icon-right">
-                              <input type="password" class="form-control" placeholder="Password" />
+                              <input type="text" class="form-control" placeholder="手机号" />
+                              <i class="icon-phone"></i>
+                            </span>
+                          </label>
+
+                          <label class="block clearfix">
+                            <span class="block input-icon input-icon-right">
+                              <input type="text" class="form-control" placeholder="身份证号" />
+                              <i class="icon-barcode"></i>
+                            </span>
+                          </label>
+
+                          <label class="block clearfix">
+                            <span class="block input-icon input-icon-right">
+                              <input type="password" class="form-control" placeholder="密码" />
                               <i class="icon-lock"></i>
                             </span>
                           </label>
 
                           <label class="block clearfix">
                             <span class="block input-icon input-icon-right">
-                              <input type="password" class="form-control" placeholder="Repeat password" />
+                              <input type="password" class="form-control" placeholder="重复密码" />
                               <i class="icon-retweet"></i>
                             </span>
                           </label>
@@ -269,22 +283,8 @@
     <!-- <![endif]-->
 
     <!--[if IE]>
-<script src="assets/js/jquery-1.10.2.min.js"></script>
-<![endif]-->
-
-    <!--[if !IE]> -->
-
-    <script type="text/javascript">
-      window.jQuery || document.write("<script src='assets/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
-    </script>
-
-    <!-- <![endif]-->
-
-    <!--[if IE]>
-<script type="text/javascript">
- window.jQuery || document.write("<script src='assets/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
-</script>
-<![endif]-->
+    <script src="assets/js/jquery-1.10.2.min.js"></script>
+    <![endif]-->
 
     <script type="text/javascript">
       if("ontouchend" in document) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
@@ -298,6 +298,8 @@
        jQuery('#'+id).addClass('visible');
       }
     </script>
+
+    <script src="static/js/login.js"></script>
   
 </body>
 </html>
