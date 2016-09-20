@@ -49,7 +49,7 @@
                 <h1>
                   <i class="icon-leaf green"></i>
                   <span class="red">民盛</span>
-                  <span class="white">集团后勤管理系统</span>
+                  <span class="white">集团后勤管理系统<%=application.getAttribute("count") %></span>
                 </h1>
                 <h4 class="blue">&copy; 民盛保险代理有限公司</h4>
               </div>
