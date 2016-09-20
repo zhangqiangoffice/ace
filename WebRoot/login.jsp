@@ -93,7 +93,7 @@
 
                             <button type="button" class="width-35 pull-right btn btn-sm btn-primary" id="login_btn">
                               <i class="icon-key"></i>
-                              登录
+                              <span>登录</span>
                             </button>
                           </div>
 
