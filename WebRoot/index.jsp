@@ -8,6 +8,9 @@
   </head>
   
   <body>
-    <a href="first.action">第一个Struts2程序</a>
+    <a href="first.action">第一个Struts2程序</a><br>
+    <a href="userAction!add">添加用户</a><br>
+    <a href="userAction!update">更新用户</a><br>
+    
   </body>
 </html>
