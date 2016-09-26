@@ -12,5 +12,11 @@
     <a href="userAction!add">添加用户</a><br>
     <a href="userAction!update">更新用户</a><br>
     
+    <form action="greeting.action" method="post">
+        请输入您的姓名<input type="text" name="username"/> 
+        <input type="submit" value="提交"/>
+    </form>
+    <a href="testAction.action">Map 类型的 request、session、application</a>
+    
   </body>
 </html>

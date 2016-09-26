@@ -24,15 +24,16 @@
         </action>
         <action name="userAction" class="com.lyq.action.UserAction" method="find">
             <result>user_success.jsp</result>
-        </action>
+        </action>-->
         <action name="greeting" class="com.lyq.action.GreetingAction">
             <result name="success">greeting_success.jsp</result>
             <result name="error">greeting_error.jsp</result>
         </action>
+        
         <action name="testAction" class="com.lyq.action.TestAction">
             <interceptor-ref name="timer" />
                 <result>test_success.jsp</result>          
-        </action>
+        </action><!-- 
         <action name="ognl" class="com.lyq.action.OGNLAction">
             <result name="success">ognl_success.jsp</result>
         </action>
