@@ -3,8 +3,8 @@
     "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
     "http://struts.apache.org/dtds/struts-2.1.dtd">
 <struts>
-   <!--  <constant name="struts.devMode" value="true"/>
-    <constant name="struts.configuration.xml.reload" value="true"/> -->
+   <constant name="struts.devMode" value="true"/>
+    <constant name="struts.configuration.xml.reload" value="true"/>
     <package name="myPackage" extends="struts-default">
         <action name="first">
             <result>/first.jsp</result>            
@@ -36,13 +36,13 @@
         </action><!-- 
         <action name="ognl" class="com.lyq.action.OGNLAction">
             <result name="success">ognl_success.jsp</result>
-        </action>
+        </action>-->
         <action name="registerUserAction" class="com.lyq.action.RegisterUserAction">
             <result>register_success.jsp</result>
         </action>
         <action name="loginUserAction" class="com.lyq.action.LoginUserAction">
             <result name="input">login.jsp</result>
             <result>login_success.jsp</result>
-        </action> -->
+        </action>
     </package>
 </struts>
